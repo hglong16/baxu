@@ -4,14 +4,21 @@
   "main": "dist/baxu.js",
   "scripts": {
     "prepack": "npm run build",
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "lint": "eslint src",
+    "lint:fix": "eslint src --fix",
+    "test": "vitest",
+    "test:run": "vitest run"
   },
   "files": [
     "dist/baxu.js"
   ],
   "devDependencies": {
+    "eslint": "^9.15.0",
+    "jsdom": "^25.0.1",
     "rollup": "^4.27.4",
     "rollup-plugin-cleanup": "^3.2.1",
-    "rollup-plugin-filesize": "^10.0.0"
+    "rollup-plugin-filesize": "^10.0.0",
+    "vitest": "^2.1.6"
   }
 }
