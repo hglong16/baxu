@@ -1,0 +1,17 @@
+{
+  "name": "baxu",
+  "version": "1.0.0",
+  "main": "dist/baxu.js",
+  "scripts": {
+    "prepack": "npm run build",
+    "build": "rollup -c"
+  },
+  "files": [
+    "dist/baxu.js"
+  ],
+  "devDependencies": {
+    "rollup": "^4.27.4",
+    "rollup-plugin-cleanup": "^3.2.1",
+    "rollup-plugin-filesize": "^10.0.0"
+  }
+}

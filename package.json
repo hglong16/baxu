@@ -1,0 +1,16 @@
+{
+  "name": "baxu",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "serve:examples": "npx http-server . -o ./examples/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "private": true,
+  "workspaces": [
+    "packages/runtime"
+  ]
+}
